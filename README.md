@@ -1,6 +1,8 @@
 # A Jupyter Widget Front-end to Fortran NNLS Code
 
-Intended to be deployed using [https://mybinder.org/](Binder).
+Deployed using [https://mybinder.org/](Binder). Try it in your browser:
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/danielballan/jupyter-nnls/master?filepath=nnls.ipynb)
 
 ## Usage
 
