@@ -1,4 +1,3 @@
 #!/bin/bash
 
-gfortran salt_study.f -o salt_study
-cp salt_study /srv/venv/bin/
+gfortran src/salt_study.f -o /srv/venv/bin/salt_study
