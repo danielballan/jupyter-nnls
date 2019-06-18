@@ -1,3 +1,5 @@
 #!/bin/bash
 
-gfortran src/salt_study.f -o /srv/conda/bin/salt_study
+SYS_PREFIX=$(python -c "import sys; import os; print(os.path.dirname(sys.executable))")
+gfortran src/salt_study.f -o $SYS_PREFIX/salt_study
+jupyter serverextension enable voila --sys-prefix
